@@ -40,12 +40,12 @@ def drive(times):
     elif elapsed_time < RELEASE:
         ReleaseKey(W)
         if press_start and (press_time > 0.25 or press_time) < 0.15:
-           print('Warning: Press_time ' + str(press_time) + ' is out of bounds. Tune PRESS/RELEASE parameters.')
+           print('Warning: Press_time ' + str(press_time) + ' is out of bounds. Consider tuning PRESS/RELEASE parameters if the error occurs frequently.')
         return [elapsed_time,0.0]
     else:
         ReleaseKey(W)
         if press_start and (press_time > 0.25 or press_time) < 0.15:
-           print('Warning: Press_time ' + str(press_time) + ' is out of bounds. Tune PRESS/RELEASE parameters.')
+           print('Warning: Press_time ' + str(press_time) + ' is out of bounds. Consider tuning PRESS/RELEASE parameters if the error occurs frequently.')
         return [0.0,0.0]
 
 def main():
