@@ -7,7 +7,7 @@ Gta_AutoPilot is a computer vision project representing AI system for an autonom
 # Collecting data
 Collecting data consists in reading and processing frames using OpenCV. Parallely, we read keyboard keys, which correspond to the prediction classes. To provide derterminism in the system's predictions, we use simple driving function to enable constant car speed if possible.
 # How to run 
-> **Note: If you want to test already trained system on GTA:SA jump to “Example” section.**
+> **Note: If you want to test already trained system on GTA:SA jump to “[Example](https://github.com/pashok3d/GTA_AutoPilot/blob/master/README.md#example)” section.**
 ### Prerequisite
 * to-do
 ### Collecting data
