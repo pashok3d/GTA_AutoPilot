@@ -14,15 +14,16 @@ Collecting data consists in reading and processing frames using OpenCV. Parallel
 * Run the game in windowed mode, 640x480 resolution, at the top left of your screen. 
 * For best perfomance, use first person view, if possible.
 * Run `scanner.py` 
-* Press following keys to save frames with corresponding move: 'O' - sraight, 'K' - left, 'L' - right.
-Interface keys: 'P' - pause data collection, 'Q' - quit.
+* Press following keys to save frames with corresponding moves: 'O' - sraight, 'K' - left, 'L' - right.   
+Interface keys: 'P' - pause/resume data collection, 'Q' - quit.
+> Note: As for now, for simplicity, pressing AWSD keys is not recognizable by the program. Collecting AWSD keys brings a lot of bias and complicates next steps.  
 ### Learning
 * Run `model.py`
 ### Exploiting
 * Run the game in windowed mode, 640x480 resolution, at the top left of your screen. 
 * For best perfomance, use first person view, if possible.
 * Run `predictor.py`
-  Interface keys: 'P' - pause autopilot, 'Q' - quit.
+  Interface keys: 'P' - pause/resume autopilot, 'Q' - quit.
 # Example
 * Run GTA:SA in windowed mode, 640x480 resolution, at the top left of your screen. 
 * For best perfomance:
@@ -30,5 +31,12 @@ Interface keys: 'P' - pause data collection, 'Q' - quit.
   * Type SLOWITDOWN to slow the time 
   * Type VROCKPOKEY to spawn the vechicle used while training
 * Run `predictor.py`
-  Interface keys: 'P' - pause autopilot, 'Q' - quit.
+  Interface keys: 'P' - pause/resume autopilot, 'Q' - quit.
+  
+# TODO
+- [ ] Use Alex net.
+- [ ] Improve constant car speed algorithm + speed adjusting.
+- [ ] Make interface more friendly and intuitive.
+- [ ] Test autopilot in other game.
+- [ ] Archive repo.
 
